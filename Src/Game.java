@@ -42,6 +42,10 @@ public class Game{
                     break;
             }
             in.close();
+            System.out.println("started");
+            
+
+
           }
 
     }
