@@ -21,11 +21,18 @@ public class Game{
         System.out.println("What do you want to do?\n");
          System.out.println("1.Entered the dungeon");
           System.out.println("2.Exit the game");
+          System.out.println("enter the choice:");
           int choice = in.nextInt() ;
-          int select = in.nextInt();
+          System.out.println("you entered the dungeon");
+
+
+          
+          
+
 
           
             switch (choice) {
+                
                 case 1:{
 
                 
@@ -35,6 +42,8 @@ public class Game{
                      System.out.println("1.Explore");
                      System.out.println("2.Check status");
                      System.out.println("3.exit");
+                     System.out.println("enter the choice :-");
+                        int select = in.nextInt();
                     
                      switch (select) {
                         case 1:
@@ -68,9 +77,13 @@ public class Game{
             }
             in.close();
             System.out.println("started");
+            
+         
 
 
 
           }
+
+          
 
     }
