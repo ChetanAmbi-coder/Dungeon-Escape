@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class Game{
     public void start(){
         System.out.println("Game started");
+
     }
+
     public static void main(String[] args) {
         
         System.out.println("Welcome, brave adventure!\n");
@@ -44,6 +46,7 @@ public class Game{
                      System.out.println("3.exit");
                      System.out.println("enter the choice :-");
                         int select = in.nextInt();
+
                     
                      switch (select) {
                         case 1:
@@ -87,3 +90,4 @@ public class Game{
           
 
     }
+
