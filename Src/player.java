@@ -1,17 +1,26 @@
-class palyer{
-    public static void main(String[] args){
-        int [] a = {1,2,1,2,1,3,1,3,1,4,1,3,3,3,5,3,2,1,3,3};
-        int  count = 0;
-        for(int i=0; i<a.length; i++){
-            if(a[i] ==3){
-                count++;
 
-            }
-           
+class player{
+    
 
-        }
-         System.out.println(count);
+
+    
+
+    String name;
+    int health;
+    public player( String name){
+        this.name = name;
+    
+        this.health  = 100;
 
     }
+
+
+public static void main(String[] args){
+    player p1 = new  player("chetan");
+    player p2 =  new player("alice");
+    System.out.println(p1.toString());
+    System.out.println(p2);
+
+}
 
 }
